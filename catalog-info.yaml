@@ -6,6 +6,6 @@ metadata:
   annotations:
     github.com/project-slug: fosterm-mw/mirage2
 spec:
-  type: documentation
+  type: project
   lifecycle: experimental
   owner: "guests"
