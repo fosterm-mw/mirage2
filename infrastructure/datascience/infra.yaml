@@ -1,0 +1,18 @@
+---
+apiVersion: catalog.projectx.mavenwave.dev/v1alpha1
+kind: DataScience
+metadata:
+  name: "mayo-demo23"
+spec:
+  parameters:
+    externalName:
+      project: "mayo-demo-2852fn"
+    controlplane:
+      project:
+        id: px-test1-project-ici
+    google:
+      billingAccount: 0105E1-61A6DE-D85D10
+    deletionPolicy: Delete
+    id: 2852fn
+    tags:
+      datascience: mayo-demo
